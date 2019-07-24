@@ -1,4 +1,4 @@
-# continue-compose
+# continue-compose (pattern deprecated -- just use async / await)
 continue-compose composes continue functions, namely functions that may be passed as the `onFullfilled` parameter to `Promise.then()` 
 to be executed serially and in an asynchronous fashion. Practically speaking, this is exactly how continue-compose will compose these 
 functions, via Promise.then. 
